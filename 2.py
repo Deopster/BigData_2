@@ -1,1 +1,2 @@
-print(*[x for x in range(1,int(input())+1) for _ in range(x)])
+s=int(input())+1
+print(*[x for x in range(1,s) for m in range(x)][:s-1] )
